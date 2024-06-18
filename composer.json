@@ -13,8 +13,8 @@
   },
   "require": {
     "php": "^8.0",
-    "laravel/framework": "^8|^9",
-    "begateway/begateway-api-php": "^4.5",
+    "laravel/framework": "^8|^9|^10|^11",
+    "begateway/begateway-api-php": "^5.1.1",
     "myclabs/php-enum": "1.8.*"
   },
   "require-dev": {
@@ -51,5 +51,5 @@
     "test": "./vendor/bin/phpunit --colors=always",
     "test:ci": "composer test -- --verbose --coverage-text --coverage-clover=coverage.xml"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
