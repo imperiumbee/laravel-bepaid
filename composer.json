@@ -51,5 +51,6 @@
     "test": "./vendor/bin/phpunit --colors=always",
     "test:ci": "composer test -- --verbose --coverage-text --coverage-clover=coverage.xml"
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "version": "2.0.0"
 }
